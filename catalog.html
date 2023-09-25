@@ -6,7 +6,7 @@
 </head>
 <body>
 
-  <header class="page-header">
+  <header data-test="header" class="page-header">
     <nav class="main-navigation">
       <a class="nav-logo" href="index.html" >
         <img class="page-header-logo" src="#" alt="Логотип города Седона">
@@ -37,7 +37,7 @@
     </nav>
   </header>
 
-  <main class="main-catalog">
+  <main data-test="main" class="main-catalog">
 
     <header class="catalog-header">
       <h1 class="catalog-header-title">Гостиницы Седоны</h1>
@@ -55,7 +55,7 @@
       </ul>
     </header>
 
-    <section class="filter">
+    <section data-test=" filter" class="filter">
     <h2 class="visually-hidden">Список фильтров</h2>
     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
       <fieldset class="catalog-filter-group">
@@ -123,7 +123,7 @@
     </form>
     </section>
 
-    <section class="catalog">
+    <section data-test="catalog" class="catalog">
       <h2>Найдено гостиниц: 38</h2>
       <select name="select-control" aria-label="Сортиривка">
           <option value="cheap">Сначала дешёвые</option>
@@ -201,7 +201,7 @@
         </li>
     </section>
 
-    <section class="subscribe">
+    <section data-test="subscribe" class="subscribe">
     <h2>Подпишитесь на рассылку</h2>
     <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
     <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -215,7 +215,7 @@
 
   </main>
 
-  <footer class="page-footer">
+  <footer data-test="footer" class="page-footer">
 
     <section class="footer-social">
       <ul class="footer-social-list">
