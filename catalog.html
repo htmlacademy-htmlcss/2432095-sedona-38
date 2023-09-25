@@ -8,18 +8,18 @@
 
   <header class="page-header">
     <nav class="main-navigation">
-      <a class="nav-logo" href="#" >
+      <a class="nav-logo" href="index.html" >
         <img class="page-header-logo" src="#" alt="Логотип города Седона">
       </a>
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-link" href="#">Главная</a>
+          <a class="nav-link" href="index.html">Главная</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">О Седоне</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-current" href="#">Гостиницы</a>
+          <a class="nav-link-current">Гостиницы</a>
         </li>
       </ul>
       <ul class="nav-list nav-user">
@@ -39,16 +39,71 @@
 
   <main class="main-catalog">
 
+    <header class="catalog-header">
+      <h1 class="catalog-header-title">Гостиницы Седоны</h1>
+      <ul class="breadcrumps">
+        <li class="breadcrumps-item">
+          <a class="breadcrumps-link">
+          <img class="breadcrumps-icon" src="#" alt="Иконка главной страницы">
+          </a>
+        </li>
+        <li class="breadcrumps-item">
+          <a class="breadcrumps-link" href="index.html">
+          <span class="hotels">Гостиницы</span>
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <section class="filter">
+    <h2 class="visually-hidden">Список фильтров</h2>
+    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+      <fieldset class="catalog-filter-group">
+        <legend class="catalog-filter-title">Инфраструктура</legend>
+        <ul class="catalog-filter-list">
+          <li class="catalog-filter-item">
+            <legend class="control">
+            <input class="control-input" type="checkbox" name="pool" checked>
+            Бассейн
+            </legend>
+          </li>
+          <li class="catalog-filter-item">
+            <legend class="control">
+            <input class="control-input" type="checkbox" name="parking" checked>
+            Парковка
+            </legend>
+          </li>
+          <li class="catalog-filter-item">
+            <legend class="control">
+            <input class="control-input" type="checkbox" name="wi-fi">
+            Wi-Fi
+            </legend>
+          </li>
+        </ul>
+
+        <legend class="catalog-filter-title">
+          Тип жилья
+        </legend>
+        <legend class="catalog-filter-title">
+          Стоимость
+        </legend>
+      </fieldset>
+    </form>
+    </section>
+
+    <section class="catalog"></section>
+
     <section class="subscribe">
     <h2>Подпишитесь на рассылку</h2>
     <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-    <form class="subscribe-form" action="#" method="post">
+    <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
       <label class="subscribe-label visually-hidden" for id="subscribe-field">Email</label>
       <input type="email" name="subscribe-field" id="subscribe-field" placeholder="Ваш e-mail">
       <button type="submit" class="subscribe-button button">
         <span>Подписаться</span>
       </button>
     </form>
+    </section>
 
   </main>
 
