@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-    <header class="page-header">
+    <header data-test="header" class="page-header">
       <nav class="main-navigation">
         <a class="nav-logo" href="#" >
           <img class="page-header-logo" src="#" alt="Логотип города «Седона»">
@@ -39,8 +39,8 @@
 
       </nav>
     </header>
-    <main>
-      <section class="hero">
+    <main data-test="main">
+      <section data-test="hero" class="hero">
         <h1 class="visually-hidden">О Седоне</h1>
         <ul class="hero-decor-list">
           <li class="hero-decor-item">
@@ -51,7 +51,7 @@
         <h2>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
         <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
-      <section class="advantages">
+      <section data-test="advantages" class="advantages">
         <ul class="advantages-list">
           <li class="advantages-item">
             <h2>Настоящий<br> городок</h2>
@@ -76,9 +76,6 @@
             <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
            </li>
         </ul>
-      </section>
-
-      <section class="life-advantages">
         <h2>Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</h2>
         <p>Опытный персонал и качественное обслуживание!</p>
         <ul class="life-advantages-list">
@@ -99,12 +96,12 @@
           </li>
         </ul>
       </section>
-      <section class="search">
+      <section data-test="search" class="search">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="search-button button" href="#">Поиск гостиницы в Седоне</a>
       </section>
-      <section class="subscribe">
+      <section data-test="subscribe" class="subscribe">
         <h2>Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="#" method="post">
@@ -117,7 +114,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer data-test="footer" class="page-footer">
 
       <section class="footer-social">
         <ul class="footer-social-list">
