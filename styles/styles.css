@@ -44,6 +44,60 @@ body{
   background-image: url("../images/index-background.jpg");
   color: #7f8792;
   background-color: #ffffff;
-  background-size: 100% auto;
+  background-size: 100% cover;
   background-repeat: no-repeat;
 }
+
+
+.huge-title{
+font-family: "PT Sans";
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+text-align: center;
+color: #000000;
+background-color: #ffffff;
+}
+
+.title{
+font-family: "PT Sans";
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+color: #000000;
+background-color: #ffffff;
+text-transform: uppercase;
+}
+
+.title-light{
+  color: #ffffff;
+  background-color: #83aab8;
+}
+
+.subtitle{
+  font-family: "PT Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.subtitle-light{
+  color: #ffffff;
+  background-color: #83aab8;
+}
+
+.advantages-phrase{
+font-family: "PT Sans";
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+}
+
+.advantages-phrase-light{
+  color: #ffffff;
+  background-color: #83aab8;
+  }
