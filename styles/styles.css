@@ -1,0 +1,233 @@
+@font-face{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format(woff2);
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format(woff2);
+  font-display: swap;
+}
+
+body{
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.page-header{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.nav-link{
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hero{
+  background-image: url("../images/index-background.jpg");
+  color: #000000;
+  background-color: #7f8792;
+  background-size: 100% cover;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
+  background-position: center;
+}
+
+
+.huge-title{
+ font-size: 30px;
+ font-weight: 700;
+ line-height: 36px;
+ text-transform: uppercase;
+ text-align: center;
+ color: #000000;
+ background-color: #ffffff;
+}
+
+.title{
+ font-size: 24px;
+ font-weight: 700;
+ line-height: 28px;
+ text-align: center;
+ color: #000000;
+ background-color: #ffffff;
+ text-transform: uppercase;
+}
+
+.title-light{
+  color: #ffffff;
+  background-color: #83aab8;
+}
+
+.subtitle{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.subtitle-light{
+  color: #ffffff;
+  background-color: #83aab8;
+}
+
+.advantages-phrase{
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 21px;
+ text-align: center;
+}
+
+.advantages-phrase-light{
+ color: #ffffff;
+ background-color: #83aab8;
+}
+
+.button{
+ font-family: "PT Sans", sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 20px;
+ text-transform: uppercase;
+ text-align: center;
+ color: #ffffff;
+ background-color: #756157;
+}
+
+.subscribe-button{
+ font-family: "PT Sans", sans-serif;
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 36px;
+ text-transform: uppercase;
+ text-align: center;
+ color: #ffffff;
+ background-color: #82B3D3;
+}
+
+.subscribe{
+ background-image: url("../images/Subscribe.jpg");
+ color: #ffffff;
+ background-color: #83aab8;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ width: 1200px;
+ height: 414.86px;
+ background-position: center;
+}
+
+.footer-contacts-phone{
+ font-size: 40px;
+ font-weight: 400;
+ line-height: 40px;
+ text-transform: uppercase;
+ text-align: center;
+ color: #000000;
+ background-color: #ffffff;
+}
+
+.catalog-header-title{
+ font-size: 60px;
+ font-weight: 700;
+ line-height: 78px;
+ color: #ffffff;
+ background-color: #83aab8;
+ }
+
+ .breadcrumps-link{
+ font-family: "PT Sans", sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ color: #ffffff;
+ background-color: #83aab8;
+ text-decoration: none;
+ }
+
+ .catalog-filter-title{
+ font-family: "PT Sans";
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 24px;
+ text-transform: capitalize;
+ color: #ffffff;
+ background-color: #83aab8;
+ }
+
+.control-input{
+ font-family: "PT Sans";
+ font-weight: 400;
+ line-height: 23px;
+ color: #ffffff;
+ background-color: #83aab8;
+}
+
+.control-filter-input::placeholder{
+ font-weight: 700;
+ line-height: 24px;
+ color: #000000;
+ background-color: #83aab8;
+}
+
+.catalog-title{
+ font-size: 30px;
+ font-weight: 700;
+ line-height: 36px;
+ text-transform: uppercase;
+ color: #000000;
+ background-color: #83aab8;
+}
+
+.cheap{
+ font-family: "PT Sans", sans-serif;
+ font-weight: 400;
+ color: #000000;
+}
+
+.catalog-card-title{
+ font-size: 24px;
+ font-weight: 700;
+ line-height: 28px;
+ color: #000000;
+ text-decoration: none;
+}
+
+.catalog-card-rate{
+ font-weight: 400;
+ line-height: 20px;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.pagination-button{
+ font-family: "PT Sans", sans-serif;
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 36px;
+ text-transform: uppercase;
+ color: #ffffff;
+ background-color: #82B3D3;
+ text-decoration: none;
+}
+
+.pagination-disabled{
+ color: #000000;
+ background-color: #ffffff;
+}

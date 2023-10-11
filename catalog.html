@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Страница каталога</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
@@ -119,10 +120,10 @@
         <fieldset>
           <legend class="catalog-filter-title">Стоимость, ₽:
             <label class="control">От
-              <input class="control-input" type="text" name="from" placeholder="0" >
+              <input class="control-filter-input" type="text" name="from" placeholder="0" >
             </label>
             <label class="control">До
-              <input class="control-input" type="text" name="to" placeholder="9000">
+              <input class="control-filter-input" type="text" name="to" placeholder="9000">
             </label>
           </legend>
         </fieldset>
@@ -138,22 +139,24 @@
     </div>
 
     <section class="catalog">
-      <h2>Найдено гостиниц: <span>38</span></h2>
+      <h2 class="catalog-title">Найдено гостиниц: <span>38</span></h2>
       <select name="select-control" aria-label="Сортиривка">
           <option value="cheap">Сначала дешёвые</option>
       </select>
 
       <ul class="catalog-view-list">
         <li class="catalog-view-item">
-          <a href="#" class="button button-framed">
+          <a href="#" class="catalog-filter-button catalog-filter-button-framed">
             <span class="visually-hidden">Показать карточки</span>
           </a>
         </li>
-        <li class="catalog-view-item"><a class="button" href="#">
+        <li class="catalog-view-item">
+          <a class="catalog-filter-button" href="#">
             <span class="visually-hidden">Показать одну карточку</span>
           </a>
         </li>
-        <li class="catalog-view-item"><a class="button" href="#">
+        <li class="catalog-view-item">
+          <a class="catalog-filter-button" href="#">
             <span class="visually-hidden">Показать список</span>
           </a>
         </li>
@@ -229,8 +232,8 @@
     </section>
 
     <section class="catalog-subscribe">
-    <h2>Подпишитесь на рассылку</h2>
-    <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+    <h2 class="huge-title">Подпишитесь на рассылку</h2>
+    <p class="subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
     <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
       <label class="subscribe-label visually-hidden" for id="subscribe-field">Email</label>
       <input type="email" name="subscribe-field" id="subscribe-field" placeholder="Ваш e-mail">
