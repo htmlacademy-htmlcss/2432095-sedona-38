@@ -39,3 +39,9 @@ body{
   text-decoration: none;
   text-align: center;
 }
+
+.hero{
+  background-image: url("../images/index-background.jpg");
+  color: #7f8792;
+  background-color: #ffffff;
+}
