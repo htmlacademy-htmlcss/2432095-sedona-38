@@ -23,12 +23,12 @@ body{
   background-color: #ffffff;
 }
 
-.page_header{
+.page-header{
   color: #000000;
   background-color: #ffffff;
 }
 
-.nav_link{
+.nav-link{
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
