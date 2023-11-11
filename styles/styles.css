@@ -55,6 +55,13 @@ body{
 }
 
 .subscribe-button{
+ display: inline-flex;
+ margin: 0;
+ padding: 0;
+ width: 232px;
+ justify-content: center;
+ align-items: center;
+ border-radius: 0 4px 4px 0;
  font-family: "PT Sans", sans-serif;
  font-size: 20px;
  font-weight: 700;
@@ -66,6 +73,8 @@ body{
 }
 
 .subscribe{
+  display: flex;
+  flex-direction: column;
  background-image: url("../images/Subscribe.jpg");
  color: #ffffff;
  background-color: #83aab8;
@@ -74,6 +83,16 @@ body{
  width: 1200px;
  height: 414.86px;
  background-position: center;
+}
+
+.subscribe-span{
+  width: 132px;
+  padding: 8px 50px;
+}
+
+.subscribe-form{
+  display: flex;
+  margin: 0 auto;
 }
 
 .footer-contacts-phone{
@@ -234,6 +253,7 @@ html{
 }
 
 .huge-title{
+  width: 0 auto;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -244,6 +264,7 @@ html{
  }
 
  .title{
+  width: 0 auto;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -285,5 +306,63 @@ html{
 .advantages-list{
   margin: 0;
   padding: 0;
+  list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages-text{
+
+  width: 230px;
+  padding: 85px;
+}
+
+.center-text{
+  margin: 0 auto;
+  width: 651px;
+}
+
+.advantages-photo{
+  width: 800px;;
+}
+
+.advantages-item-other{
+  display: flex;
+  width: 1200px;
+}
+
+.advantages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.life-advantages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.life-advantages-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.search-button{
+  display: block;
+  margin: 0 auto;
+}
+
+.search-subtitle{
+  margin: 0 auto;
+  width: 592px;
+}
+
+input{
+  width: 452px;
 }
