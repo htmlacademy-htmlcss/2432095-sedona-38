@@ -32,18 +32,6 @@ body{
   background-color: #ffffff;
 }
 
-.nav-link{
-  font-family: "PT Sans", sans-serif;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #000000;
-  background-color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-}
-
 .hero{
   background-image: url("../images/index-background.jpg");
   color: #000000;
@@ -53,56 +41,6 @@ body{
   width: 1200px;
   height: 485px;
   background-position: center;
-}
-
-
-.huge-title{
- font-size: 30px;
- font-weight: 700;
- line-height: 36px;
- text-transform: uppercase;
- text-align: center;
- color: #000000;
- background-color: #ffffff;
-}
-
-.title{
- font-size: 24px;
- font-weight: 700;
- line-height: 28px;
- text-align: center;
- color: #000000;
- background-color: #ffffff;
- text-transform: uppercase;
-}
-
-.title-light{
-  color: #ffffff;
-  background-color: #83aab8;
-}
-
-.subtitle{
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 26px;
-  text-align: center;
-}
-
-.subtitle-light{
-  color: #ffffff;
-  background-color: #83aab8;
-}
-
-.advantages-phrase{
- font-size: 18px;
- font-weight: 400;
- line-height: 21px;
- text-align: center;
-}
-
-.advantages-phrase-light{
- color: #ffffff;
- background-color: #83aab8;
 }
 
 .button{
@@ -252,6 +190,19 @@ html{
 }
 
 /* Navigation */
+
+.nav-link{
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
 .main-navigation{
   display: flex;
   width: 1060px;
@@ -267,7 +218,6 @@ html{
 .nav-logo{
   display: block;
   margin-right: 30px;
-
 }
 
 .nav-user{
@@ -275,4 +225,65 @@ html{
   padding: 0;
   margin: 0;
   margin-left: auto;
+}
+
+/* Main index content */
+.hero-phrase{
+  display: block;
+  margin: 0 auto;
+}
+
+.huge-title{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+ }
+
+ .title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+ }
+
+ .title-light{
+   color: #ffffff;
+   background-color: #83aab8;
+ }
+
+ .subtitle{
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 26px;
+   text-align: center;
+ }
+
+ .subtitle-light{
+   color: #ffffff;
+   background-color: #83aab8;
+ }
+
+ .advantages-phrase{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+ }
+
+ .advantages-phrase-light{
+  color: #ffffff;
+  background-color: #83aab8;
+ }
+
+.advantages-list{
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
