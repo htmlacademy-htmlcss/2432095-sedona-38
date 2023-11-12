@@ -236,10 +236,16 @@ html{
 }
 
 .nav-list{
-  width: 339px;
+  display: flex;
+  width: 400px;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.nav-item{
+  width: 200px;
+  padding: 20px 16px;
 }
 
 .nav-logo{
@@ -248,7 +254,8 @@ html{
 }
 
 .nav-user{
-  width: 268px;
+  display: flex;
+  width: 375px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -339,6 +346,10 @@ html{
 .advantages-item-other{
   display: flex;
   width: 1200px;
+}
+
+.advantages-item-other .advantages-text{
+  background-color: #83aab8;
 }
 
 .advantages{
