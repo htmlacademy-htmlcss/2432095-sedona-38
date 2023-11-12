@@ -85,6 +85,13 @@ body{
  background-position: center;
 }
 
+.catalog-subscribe{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .subscribe-span{
   width: 132px;
   padding: 8px 50px;
@@ -392,4 +399,100 @@ input{
   align-items: center;
   width: 114.9px;
   margin-left: auto;
+}
+
+/* Catalog filter */
+
+.catalog-filter{
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 35px 70px 70px 70px;
+  align-items: flex-start;
+}
+
+.catalog-filter-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog-filter-wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 371px;
+  margin-right: auto;
+}
+
+.control-filter-input{
+  width: 103px;
+  padding: 12px 20px;
+}
+
+.catalog-filter-title{
+  width: 150px;
+}
+
+.catalog-filter-price{
+  width: 288px;
+  margin-left: auto;
+}
+
+.button-wriper{
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+/* Catalog */
+
+.catalog-search{
+  display: flex;
+  margin: 0 auto;
+  width: 1060px;
+}
+
+.catalog-title{
+  width: 338px;
+  margin-right: auto;
+}
+
+.select-control{
+  width: 252px;
+}
+
+.catalog-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  list-style: none;
+  width: 1060px;
+}
+
+.catalog-item{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+}
+
+.catalog-card-price{
+  width: 140px;
+}
+
+/* Pagination */
+
+.pagination{
+  display: flex;
+  margin: 0;
+  width: 1060px;
+  list-style: none;
+}
+
+.pagination-item{
+  width: 60px;
+}
+
+.pagination-item:not(:last-child){
+  margin-right: 8px;
 }
