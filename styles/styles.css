@@ -230,8 +230,9 @@ html{
 
 .nav-list{
   width: 339px;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .nav-logo{
@@ -243,6 +244,7 @@ html{
   width: 268px;
   padding: 0;
   margin: 0;
+  list-style: none;
   margin-left: auto;
 }
 
@@ -365,4 +367,29 @@ html{
 
 input{
   width: 452px;
+}
+
+/* Footer */
+
+.page-footer-container{
+  display: flex;
+  margin: 0 auto;
+  width: 1060px;
+}
+
+.footer-social{
+  width: 142px;
+  margin-right: auto;
+}
+
+.footer-contacts{
+  width: 331px;
+  padding: 5px 195px;
+}
+
+.footer-copyrite{
+  display: inline-flex;
+  align-items: center;
+  width: 114.9px;
+  margin-left: auto;
 }
